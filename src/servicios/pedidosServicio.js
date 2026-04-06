@@ -20,7 +20,7 @@ export async function creaPedido({
   direccion,
   fecha_solicitud,
   total,
-  comentario,
+  comentario, 
   ubicacion
 }) {
   const pedido = new Pedido({

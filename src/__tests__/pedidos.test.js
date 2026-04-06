@@ -13,7 +13,7 @@ import {
   modificaPedido,
   eliminaPedido
 
-} from "../servicios/pedidos.js";
+} from "../servicios/pedidosServicio.js";
 import { Pedido } from "../bd/modelos/pedido.js";
 
 beforeAll(async () => {
