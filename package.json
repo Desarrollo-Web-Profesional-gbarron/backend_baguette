@@ -1,0 +1,50 @@
+{
+  "name": "backend_baguette",
+  "version": "1.0.0",
+  "description": "Esta es una aplicacion Backend para Baguette",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "prepare": "husky install",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desarrollo-Web-Profesional-gbarron/backend_baguette.git"
+  },
+  "jest": {
+    "testTimeout": 10000
+  },
+  "keywords": [],
+  "author": "Gabriel Barrón Rodríguez",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Desarrollo-Web-Profesional-gbarron/backend_baguette/issues"
+  },
+  "homepage": "https://github.com/Desarrollo-Web-Profesional-gbarron/backend_baguette#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.4.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "jest": "^30.3.0",
+    "lint-staged": "^16.4.0",
+    "mongodb-memory-server": "^11.0.1",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1"
+  }
+}
