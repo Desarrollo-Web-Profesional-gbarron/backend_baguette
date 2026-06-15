@@ -3,8 +3,7 @@ import express from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 import helmet from 'helmet'
-const xss = require('xss-clean'); // Middleware para limpiar inputs de scripts
-
+import xss from 'xss-clean'
 
 import { pedidosRoutes } from './rutas/pedidos.js'
 import {comentariosRoutes} from './rutas/comentarios.js'

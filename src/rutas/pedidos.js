@@ -7,7 +7,7 @@ import {
   getPedidoById,
   modificaPedido,
   eliminaPedido
-} from '../servicios/pedidos.js'
+} from '../servicios/pedidosServicio.js'
 
 
 /**
